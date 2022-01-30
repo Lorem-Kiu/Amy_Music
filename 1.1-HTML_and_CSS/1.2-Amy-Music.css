@@ -1,0 +1,579 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #252529;
+    box-sizing: border-box;
+    color: #fff;
+    line-height: 1.5;
+}
+
+
+
+/* Utility Classes Styling  */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+
+.btn-primary {
+    color: white;
+    padding: 1rem;
+    display: inline-block;
+    /* border: 3px solid red; */
+}
+
+
+
+.btn-primary:hover{
+    opacity: 0.9;
+    text-decoration: underline;
+}
+
+
+
+.lead {
+    font-size: 1.4rem;
+    /* margin-top: 10px; */
+    text-align: center;
+}
+
+
+
+.small-text {
+    font-size: 0.9rem;
+}
+
+
+
+
+/* Navigation Bar Section Styling */
+
+.nav-bar {
+    background-color: #333;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    position: fixed;
+}
+
+
+.nav-bar ul {
+    width: 70%;
+    height: 40px;
+    margin: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+}
+
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+
+.nav-bar ul li a:hover {
+    border-bottom: 2px solid gray;
+    opacity: 0.8;
+}
+
+
+
+
+/* Overview Section Styling  */
+
+.container {
+    overflow-y: hidden;
+    background: url(../1.2-Images/showcase-amy-music.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    max-height: 1100px;
+    margin-bottom: 40px;
+}
+
+.overview {
+    width: 62vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 30vh;
+}
+
+
+.overview h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+
+.overview h2 {
+    font-size: 2.6rem;
+}
+
+
+.overview .lead {
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+
+
+
+/* Music Section Styling  */
+
+.music {
+    text-align: center;
+    width: 70%;
+    margin: 20px auto;
+}
+
+
+.music h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+
+.music h1 a i {
+    padding-right: 10px;
+    color: #fff;
+}
+
+
+.music h2 {
+    margin-bottom: 30px;
+}
+
+
+.music .lead {
+    margin-bottom: 30px;
+}
+
+
+.music a.btn-primary {
+    background-color: #b90415;
+    border: 2px solid gray;
+}
+
+
+.music a.btn-primary:hover {
+    text-decoration: underline;
+}
+
+
+.music .small-text {
+    margin: 30px 0 10vh 0;
+}
+
+
+.music img {
+    width: 100%;
+}
+
+
+
+
+/* Video Section Styling */
+
+#video {
+    margin-top: 50;
+    background-color: rgb(240, 234, 234);
+}
+
+
+.video {
+    text-align: center;
+    width: 80%;
+    margin:  auto;
+    padding: 3rem;
+    color: black;
+}
+
+
+.video h2 {
+    font-size: 2.4rem;
+   padding: 40px 0px;
+    margin-bottom: 10px;
+}
+
+
+.video .lead {
+    margin-bottom: 40px;
+}
+
+
+.video .btn-primary {
+    margin-bottom: 40px;
+    background-color: #103063;;
+}
+
+
+.video img {
+    width: 100%;
+}
+
+
+
+
+/* Entertainment Section Styling  */
+
+#entertainment {
+    height: 400px;
+    background: url(../1.2-Images/entertainment-amy-music.jpg) center center/cover;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.entertainment{
+    width: 65%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+
+.entertainment h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Gift Card Section Styling  */
+
+#gift-card {
+    background-color: #fff;
+    color: black;
+}
+
+
+.gift-card {
+    width: 75%;
+    margin: auto;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.gift-card * {
+    margin-bottom: 10px;
+}
+
+
+.gift-card img {
+    height: 250px;
+    margin-right: 8vh;
+}
+
+
+.gift-card-info h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.gift-card-info a {
+    color: deepskyblue;
+}
+
+
+.gift-card-info a:hover{
+    opacity: 0.8;
+}
+
+
+.gift-card-info a:hover i{
+    margin-left: 6px;
+}
+
+
+.gift-card-info .small-text{
+    margin-left: 6px;
+}
+
+
+.gift-card-info a i {
+    padding-left: 4px;
+}
+
+
+
+
+/* Contact Us Section Styling  */
+
+#contact-us {
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    width: 100%;
+}
+
+
+.contact-inner {
+    width: 80%;
+    margin: auto;
+    padding: 1rem  0px 0px 0px;
+}
+
+
+.mini-contact {
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+}
+
+
+.mini-contact li {
+    margin-bottom: 15px;
+    list-style-position: inside;
+    color: #616161;
+
+}
+
+
+.services-list {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: flex-start;
+}
+
+
+.contact-inner .services-list ul li a {
+    color: #616161;
+}
+
+
+.services-list h3 {
+    font-size: 14px;
+    color: rgb(97, 95, 95); 
+}
+
+
+.services-list li{
+    font-size: 12px;
+    
+}
+
+.contact-inner * {
+    margin-top: 10px;
+}
+
+
+
+
+/* Footer Section Styling  */
+
+footer {
+    background-color: #e2e2e5;
+}
+
+
+.footer-inner {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0px;
+}
+
+
+.footer-inner ul {
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+}
+
+
+.footer-inner ul li {
+    padding: 0px 25px;
+    color: #616161;
+}
+
+
+.footer-inner a {
+    display: inline-block;
+    margin-left: 30px;
+    color: #616161;
+}
+
+
+.footer-inner a i {
+    padding-right: 10px;
+}
+
+
+
+/* All Media Queries */
+
+/* Media Query Upto 800px Styling */
+
+@media only screen and (max-width : 800px) {
+    
+    .nav-bar {
+        position: static;
+    }
+
+    .nav-bar ul {
+        height: auto;
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .nav-bar * {
+        margin-bottom: 10px;
+    }
+
+    .nav-bar{
+        height: auto;
+    }
+    
+    .container {
+        height: 50vh;
+    }
+
+    .overview {
+        width: 90%;
+        margin-top: 2vh;
+    }
+
+    .overview h1 , .overview h2 {
+        font-size: 3rem;
+    }
+
+    .overview h2 {
+        font-size: 1.5rem;
+    }
+
+    .music .small-text {
+        margin: 30px 0 3vh 0;
+    }
+
+    .video .lead , .music .lead{
+        display: none;
+    }
+
+    .entertainment {
+        width: 90%;
+        
+        padding-top: 43px;
+    }
+
+    .gift-card {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gift-card img {
+        margin-right: 10px;
+    }
+
+    .gift-card-info P {
+        display: none;
+    }
+
+    .contact-inner {
+        width: 90%;
+    }
+
+    .services-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-inner, .services-list {
+        width: 90%;
+    }
+
+    .footer-inner ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+     }
+}
+
+
+
+
+/* Media Query Upto 500px Styling  */
+
+@media only screen and (max-width : 500px) {
+
+    .nav-bar ul {
+        height: auto;
+        display: grid;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .overview {
+        margin-top: 2vh;
+    }
+
+    .video h2 {
+        font-size: 2rem;
+    }
+
+    .overview .lead {
+        display: none;
+    }
+
+    .entertainment h2 {
+        font-size: 2rem;
+    }
+
+    .entertainment .lead {
+        display: none;
+    }
+
+    .gift-card img {
+        width: 200px;
+    }
+
+    .contact-inner .mini-contact {
+        display: none;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-inner ul {
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+}
+
+
+/* ... THE END ... */
+
+
+
